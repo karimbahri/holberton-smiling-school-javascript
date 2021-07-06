@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-image: url("images/pic_1.jpg");
+    height: 190vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.links {
+    font-weight: bold;
+}
+.links a:hover {
+    color: #8058A7 !important;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 90px;
+}
+.list-inline-item {
+    font-weight: bold;
+}
+.btn {
+    background-color: #C271FF;
+    color: white;
+}
+.btn:active, .btn:hover{
+    opacity: 0.9;
+    color: white;
+}
+.highlight {
+    color: #c3baca;
+}
+.header_paragraph {
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+.profiles {
+    transform: translateY(170%);
+}
+.navbar-toggler-icon {
+   color: white;
+   font-size: 35px;
+}
+.quotes-section {
+    background-color: #C271FF;
+    height: 60vh;
+}
+.quotes-section p {
+    color: white;
+    font-size: 20px;
+}
+.quotes-section .name {
+    font-weight: bold;
+}
+.quotes-section .lt {
+    font-size: 10px;
+}
+.popular_section {
+    height: 130vh;
+}
+.purple {
+    color: #C271FF;
+}
+.prev {
+    transform: translateX(-70%);
+}
+.next {
+    transform: translateX(70%);
+}
+
+.membership-section {
+    height: 110vh;
+    background-color: #071629;
+    background-size: cover;
+}
+.membership-section h2 {
+    color: white;
+    padding-top: 100px !important;
+}
+footer {
+    background-color: #071629;
+    height: 40vh;
+}
+.icon {
+    width: 20px;
+}
+footer p {
+    transform: translateY(50px);
+}
+
+/*===== PRICING */
+
+.header-pricing {
+    background-image: url("images/pic_2.jpg");
+    height: 190vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.header-pricing h3 {
+    font-weight: bold;
+}
+
+.faq_section {
+    height: 120vh;
+}
+.faq_section .title {
+    color: #071629;
+}
+
+/*===== COURSES */
+
+.header-courses {
+    background-image: url("images/pic_3.jpg");
+    height: 130vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.header-courses p {
+    font-family: Coiny;
+}
+
+
+/*================================
+LOADER
+================================*/
+
+.loader {
+    position: relative;
+    top: 130px;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #C271FF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
