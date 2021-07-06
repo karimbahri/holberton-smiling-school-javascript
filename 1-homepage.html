@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="sizes.css">
+        <script src="scripts.js"></script>
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>Homepage</title>
+    </head>
+    <body>
+        <header class="bg-image img-responsive">
+            <nav class="navbar navbar-expand-md mx-5 px-5">
+                <img src="images/smile_off.png" alt="smile" height="30" width="35" class="ml-5">
+                <img src="images/logo.png" alt="logo" height="30" width="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaritems">
+                    <span class="navbar-toggler-icon">&#9776;</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbaritems">
+                    <ul class="navbar-nav ml-auto links">
+                        <li class="nav-item mx-3"><a class="nav-link text-white text-center" href="#">COURSES</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link text-white text-center" href="#">PRICING</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link text-white text-center" href="#">LOGIN</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="carousel-caption mb-5">
+                <h1 class="mt-5 ">Get schooled</h1>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item mx-4">SMILES</li>
+                    <li class="list-inline-item mx-4">GRIN</li>
+                    <li class="list-inline-item mx-4">LAUGH</li>
+                </ul>
+                <button class="btn rounded-pill shadow mt-4 py-2">REGISTER FOR FREE</button>
+                <p class="header_paragraph"><span class="highlight">Learn</span> from the pros</p>
+            </div>
+            <div class="profiles row-fluid d-flex justify-content-around text-white mt-5 pt-5 container-fluid">
+                <div class="thumbnail item-1">
+                    <img src="images/profile_1.jpg" width="150" class="rounded-circle m-4 img-fluid" alt="profile_1">
+                    <h3>Phillip Massey</h3>
+                    <p>''Some of year''<br> 2018-2019</p>
+                </div>
+                <div class="thumbnail item-2">
+                    <img src="images/profile_2.jpg" width="150" class="rounded-circle m-4 img-fluid" alt="profile_2">
+                    <h3>Nannie Lawrence</h3>
+                    <p>Best ''little smile''<br> 2017</p>
+                </div>
+                <div class="thumbnail item-3">
+                    <img src="images/profile_3.jpg" width="150" class="rounded-circle m-4 img-fluid" alt="profile_3">
+                    <h3>Bruce Walters</h3>
+                    <p>Best ''friend smile''<br>live performance 2019</p>
+                </div>
+                <div class="thumbnail item-4">
+                    <img src="images/profile_4.jpg" width="150" class="rounded-circle m-4 img-fluid" alt="profile_4">
+                    <h3>Henry Hughes</h3>
+                    <p>''24 smiles'' winner<br> 2016-2019</p>
+                </div>
+            </div>
+        </header>
+        <div class="quotes-section">
+            <div class="loader"></div>
+        </div>
+        <div class="popular_section bg-white">
+            <h2 class="py-5 my-5 text-center">Most <span class="purple">popular</span> tutorials</h2>
+            <div class="container">
+                <div id="carousel-popular" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev prev" href="#carousel-popular" role="button" data-slide="prev">
+                      <span class="" aria-hidden="true"><img src="images/arrow_black_left.png" alt="left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next next" href="#carousel-popular" role="button" data-slide="next">
+                      <span class="" aria-hidden="true"><img src="images/arrow_black_right.png" alt="right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        <div class="membership-section">
+            <div>
+                <h2 class="text-center py-5 my-5"><span class="purple">Free</span> membership</h2>
+            </div>
+            <div class="row justify-content-around w-100 pb-5">
+                <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-center align-items-center text-white text-center">
+                    <img src="images/smile_on.png" width="50px" alt="smile">
+                    <h3 class="p-4">Lorem ipsum</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-center align-items-center text-white text-center">
+                    <img src="images/smile_on.png" width="50px" alt="smile">
+                    <h3 class="p-4">Lorem ipsum</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-center align-items-center text-white text-center">
+                    <img src="images/smile_on.png" width="50px" alt="smile">
+                    <h3 class="p-4">Lorem ipsum</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 d-flex flex-column justify-content-center align-items-center text-white text-center">
+                    <img src="images/smile_on.png" width="50px" alt="smile">
+                    <h3 class="p-4">Lorem ipsum</h3>
+                    <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-5">
+                <button class="btn rounded-pill shadow">REGISTER FOR FREE</button>
+            </div>
+        </div>
+        <div class="popular_section bg-white">
+            <h2 class="py-5 my-5 text-center">Most <span class="purple">popular</span> tutorials</h2>
+            <div class="container">
+                <div id="carousel-popular_2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_2.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_3.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="images/thumbnail_4.jpg" alt="card-img" width="250px">
+                                    <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                </div>
+                                <div class="p-4">
+                                    <h3>Diagonal Smile</h3>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                    <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                    <span class="purple">Phillip Massey</span>
+                                    <div class="p-2">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_on.png" alt="star" width="20px">
+                                        <img src="images/star_off.png" alt="star" width="20px">
+                                        <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="famous">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="images/thumbnail_1.jpg" alt="card-img" width="250px">
+                                        <img class="position-absolute" src="images/play.png" width="100px" height="100px" alt="play">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3>Diagonal Smile</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus asperiores voluptatum consequatur.</p>
+                                        <img class="rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="40px">
+                                        <span class="purple">Phillip Massey</span>
+                                        <div class="p-2">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_on.png" alt="star" width="20px">
+                                            <img src="images/star_off.png" alt="star" width="20px">
+                                            <span class="m-2 p-1"><p class="d-inline text-secondary">8 min</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev prev" href="#carousel-popular_2" role="button" data-slide="prev">
+                      <span class="" aria-hidden="true"><img src="images/arrow_black_left.png" alt="left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next next" href="#carousel-popular_2" role="button" data-slide="next">
+                      <span class="" aria-hidden="true"><img src="images/arrow_black_right.png" alt="right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        <footer>
+            <div class="p-5">
+                <div class="row d-flex align-items-between flex-sm-row flex-column">
+                    <div class="col d-flex justify-content-center justify-content-sm-start">
+                        <img src="images/smile_off.png" alt="smile" height="30" width="35">
+                        <img src="images/logo.png" alt="logo" height="30" width="" class="pl-4">
+                    </div>
+                    <div class="col justify-content-center justify-content-sm-end d-flex align-items-center align-items-sm-end icons">
+                        <button class=" rounded-circle border border-white mx-2"><i class="fab fa-facebook-f icon"></i></button>
+                        <button class=" rounded-circle border border-white mx-2"><i class="fab fa-twitter icon"></i></button>
+                        <button class=" rounded-circle border border-white mx-2"><i class="fab fa-instagram icon"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-end">
+                <p class="text-muted">©smileschool 2020</p>
+            </div>
+        </footer>
+    </body>
+</html>
