@@ -7,7 +7,6 @@ $().ready(function () {
         dataType: 'xml',
         success: function (quotes) {
             insertCarousel();
-
             const data = [];
             $(quotes).find('quote').each(function (i) {
                 data[i] = {};
@@ -54,6 +53,7 @@ $().ready(function () {
                 items[i].duration = $(this).find('duration').text();
                 items[i].topic = $(this).find('topic').text();
                 items[i].keywords = $(this).find('keywords').text();
+                items[i].star = $(this).attr('star');
             })
             console.log(items);
             setPopularsCardsdata(items);
@@ -88,10 +88,11 @@ $().ready(function () {
                 items[i].duration = $(this).find('duration').text();
                 items[i].topic = $(this).find('topic').text();
                 items[i].keywords = $(this).find('keywords').text();
+                items[i].star = $(this).attr('star');
             })
             insertCardsCarousel('.container-2', 'carousel-popular-2');
             setPopularsCardsdata(items);
-            console.log('----', items);
+            console.log('----', data);
         }
     })
 })
