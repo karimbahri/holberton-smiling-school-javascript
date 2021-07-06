@@ -1,0 +1,47 @@
+
+@media (max-width: 900px) {
+    .profiles {
+        display: inline-grid !important;
+        grid-template-columns: auto auto !important;
+    }
+    header {
+        height: 240vh;
+    }
+    .profiles {
+        transform: translateY(100%);
+    }
+    .quotes-section {
+        height: 90vh;
+    }
+    .famous {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .prev {
+        transform: translateX(-30%);
+    }
+    .next {
+        transform: translateX(-40%);
+    }
+
+    .membership-section {
+        height: 160vh;
+        background-color: #071629;
+    }
+    .faq_section {
+        height: 180vh;
+    }
+}
+@media (max-width: 600px) {
+    .membership-section {
+        height: 190vh;
+        background-color: #071629;
+    }
+
+    .icons {
+        transform: translateY(30px);
+    }
+    .faq_section {
+        height: 240vh;
+    }
+}
